@@ -26,10 +26,10 @@
 /* nav style down bellow*/
 nav{
    
-    width: 1600px;
+    
     display: flex;
     justify-content: space-between;
-    background-color: rgb(230, 0, 255);
+    background-color: white;
 }
  
 nav .navIcon{
@@ -56,8 +56,79 @@ nav .button{
     margin-right: 120px;
 }
 
+/* banner style */
 
 
+.banner{
+    height: 674px;
+    width: 1600px;
+    background-image: url(./assets/hero-bg.png);
+    display: flex;
 
 
+}
 
+.banner-part1{
+    
+}
+
+
+.button2{
+    margin-left: 685.5px;
+   
+    margin-top: 115.5px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: #30B868 ;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 9.5px 12px;
+    border-radius: 1000px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    
+}
+
+/* now i know why dev's hate designers */
+
+#circle-1{
+    background-color: #3ca4673d;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+     
+    margin-left: 12px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle-2{
+    background-color: #30b86977;
+    width: 12px;
+    height: 12px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle-3{
+    background-color: #30B868;
+    
+    width: 6px;
+    height: 6px;
+    border-radius: 8px;
+}
+
+
+#paragraph1{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  size: 18px;
+}

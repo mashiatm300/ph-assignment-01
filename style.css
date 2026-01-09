@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navText> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+}
+header{
+    background-color: white;
+    
+}
+
+nav{
+    margin-top: 16px ;
+    margin-bottom: 16px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .navText{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 32px;
+}

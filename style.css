@@ -3,28 +3,61 @@
     padding: 0px;
 }
 
-.navText> {
+/* shared style */
+
+
+.button{
+    background-color: #30B868;
+    font-size: 16px ;
+    font-weight: 600;
+    color: white;
+    border: none;
+    padding: 16px 12px ;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.interFont {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 
 }
-header{
-    background-color: white;
-    
-}
 
+/* nav style down bellow*/
 nav{
-    margin-top: 16px ;
-    margin-bottom: 16px;
-    padding-left: 120px;
-    padding-right: 120px;
+   
+    width: 1600px;
     display: flex;
     justify-content: space-between;
+    background-color: rgb(230, 0, 255);
+}
+ 
+nav .navIcon{
+    margin-top: 16px ;
+    margin-bottom: 16px;
+    margin-left: 120px;
+
 }
 
-nav .navText{
+nav .navOpt{
     display: flex;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    font-size: 16px;
+    font-weight: 500;
     justify-content: space-between;
     list-style-type: none;
     gap: 32px;
 }
+
+nav .button{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 120px;
+}
+
+
+
+
+
+

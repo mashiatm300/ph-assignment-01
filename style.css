@@ -41,7 +41,7 @@
 /* nav style down bellow*/
 nav{
     max-width: 1600px;
-   margin: 16px ;
+    padding: 16px ;
     display: flex;
     justify-content: space-around;
     background-color: white;
@@ -441,21 +441,24 @@ nav .button{
 
 
 footer{
-    height: 348px;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    
     width: 1600px;
-    background-color: #38294c;
+    background-color: #1e1529;
     
     display: flex;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
     align-items: center;
+    gap: 80px;
 }
 
 #footer-top{
     display: flex;
     justify-content: space-between;
     width: 1360px;
-    margin-bottom: 40px;
+    
 }
 
 #social{
@@ -472,7 +475,7 @@ footer{
 #social h3{
     color: white;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 
@@ -507,12 +510,9 @@ footer{
     border-radius: 20px;
     color: white;
     
-
-    align-items: center;
-    justify-content: center;
 }
 
-#copyright{
+#footer-bottom p{
     font-family: "Inter", sans-serif;
      font-optical-sizing: auto;
     color: white;
@@ -521,6 +521,16 @@ footer{
 
 hr{
     width: 1360px;
-    border: 0.5px solid #000000;
+    border: 1px solid #5f5f5f50;
     margin-bottom: 24px;
+}
+
+footer p{
+    font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #aeaeae;
+    text-align: center;
 }

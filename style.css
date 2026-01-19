@@ -41,6 +41,7 @@
 
 
 /* nav style down bellow*/
+
 nav{
     max-width: 1600px;
     padding: 16px ;
@@ -195,9 +196,6 @@ nav .button1{
     color: white;
 }
 
-
-/* banar 1 part 2*/
-
 .banner-part2{
     display: flex;
     justify-content: space-between;
@@ -220,7 +218,7 @@ nav .button1{
     align-items: center;   
 }
 
-/* 2nd banner*/
+/* notes section*/
 
 #notes{
     width: 1600px;
@@ -234,13 +232,15 @@ nav .button1{
     background-color: rgb(252, 252, 252);
     display: flex;
     flex-direction: column;
-    gap: 16px;    
+    gap: 44px;    
 }
 
 #notes01{
     width: 1360px;
+    height: 152px;
     display: flex;
     flex-direction: column;
+    justify-content: end;
     align-items: center;
     
     gap: 16px;
@@ -254,7 +254,6 @@ nav .button1{
     font-weight: 700;
     font-style: bold;
     line-height: 58px;
-
     text-align: center;
     color: #212121;
 }
@@ -285,8 +284,8 @@ nav .button1{
 }
 
 .card{
-    width: 274;
-    height: 300px;
+    width: 274px;
+    height: 252px;
     padding: 24px;
     border-radius: 8px;
     display: flex;
@@ -325,7 +324,7 @@ nav .button1{
 
 
 
-/* section 3 */
+/* second brain section */
 
 
 #second-brain{
@@ -413,7 +412,7 @@ nav .button1{
 }
 
 
-/* section 4 */
+/*challenge section */
 
 
 #challenge{
@@ -435,6 +434,22 @@ nav .button1{
     gap: 24px;
 }
 
+#challenge-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 16px;
+}
+
+#challenge-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 16px;
+}
+
 #challenge p{
      font-family: "Inter", sans-serif;
      font-optical-sizing: auto;
@@ -446,7 +461,7 @@ nav .button1{
 
 
 
-/* footer */
+/* footer section */
 
 
 footer{

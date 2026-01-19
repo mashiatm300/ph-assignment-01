@@ -450,6 +450,15 @@ nav .button1{
     gap: 16px;
 }
 
+#challenge h1{
+    font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #212121;
+}
+
 #challenge p{
      font-family: "Inter", sans-serif;
      font-optical-sizing: auto;
